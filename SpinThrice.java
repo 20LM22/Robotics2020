@@ -19,9 +19,9 @@ public class SpinThrice {
         }
     
         if(Robot.numberTurns>=24) {
-            Robot.motor.set(ControlMode.PercentOutput, 0); // these need to be changed for the spark maxs
+            //Robot.motor.set(ControlMode.PercentOutput, 0); // these need to be changed for the spark maxs
         }else {
-            Robot.motor.set(ControlMode.PercentOutput, 0.1); // these need to be changed for the spark maxs
+            //Robot.motor.set(ControlMode.PercentOutput, 0.5); // these need to be changed for the spark maxs
         }
     }
 
